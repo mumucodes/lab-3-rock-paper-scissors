@@ -1,7 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-
-const test = QUnit.test;
+import { compare } from './tests.js'
 
 test('time to test a function', (expect) => {
     //Arrange
