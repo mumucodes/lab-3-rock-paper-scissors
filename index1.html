@@ -12,34 +12,36 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <header>
+        <img src="/header.png" alt="">
+    </header>
     
         <section class="playerchoices">
-                <p></p>
-                <input class= "radio" type="radio" name="checked" id="rock-button">
-                <p class="choosebutton">
-                    <img class="choosebutton1" src="/OverPage-0 5.png" alt="">
-                </p>
-                <input class="radio" type="radio" name="checked" id="paper-button">
-                <p>
-                    <img src="/scissors.png" alt="picture of hand in scissors position" class="scissors-input">
-                </p>
-                <input class="radio" type="radio" name="checked" id="scissors-button">
-                
-           
+                <img src="/choose-one.PNG" class="one" alt="">
+          
+            
+            <ul>
+                <span class="span-rock">
+                    <input  class="input"
+                            id="input-rock"
+                            type="radio"
+                            name="checked">
+                </span>
+                <span class="span-paper">
+                    <input  class="input"
+                            id="input-paper"
+                            type="radio"
+                            name="checked">
+                </span>
+                <span class="span-scissors">
+                    <input class="input"
+                            id="input-scissors"
+                            type="radio"
+                            name="checked">
+                </span>
+            </ul>
         </section>
-
-        <section class="game-play-area">
-            <div>
-                <button id="play-button">
-            </div>
-            <div>empty space</div>
-            <div>
-                <div>image</div>
-                <div>image</div>
-                <div id="scorecard">
-                    <div id="wins"></div>
-                    <div id="losses"></div>
-                </div>
-            </div>
-        </section>
+    <div>
+        <img src="/footer.png" alt="">
+    </div>
 </body>
