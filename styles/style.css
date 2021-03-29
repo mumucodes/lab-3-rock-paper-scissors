@@ -2,158 +2,125 @@ html {
 	margin: 0;
 	padding: 0;
     }
+body {
+    background-color: #202051;
+    }
 header {
     max-height: 20em;
-}
+    }
+.header-pic {
+    position:relative;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    }
 footer {
     max-height: 20em;
-}
+    }
+.footer-pic {
+    position:relative;
+    height: auto;
+    width: 100%;
+    z-index: 1; 
+    }
+/* this begins the meta container for the elements within*/
+.metacontainer {
+    display: grid;
+    grid: 50% 50%;
+    }
 section {
     display: grid;
-    grid-template-columns: 15em 35em;
+    grid-template-columns: 50% 50%;
     margin-left: 1em;
     padding-top: 0 em;
+    border-color:yellow;
+    border-style: dotted;
+    border-width: 5px;
     }
+.playerchoices {
 
+}
 .one {
     position:relative;
-    top: -15em;
-    width: 40em;
-    height: 50em;
-}
-/*span {
-    width: 50em;
-    height: auto;
-    position: relative;
+    top: 2em;
+    width: 100%
     }
-    */
+.meta-rock {
+    position:relative;
+    width: 20em;
+    top: -13em;
+    left: -12em;
+    height: auto; 
+    }
+.input-rock {
+    }
+.rock {
+    }
+.span-rock {
+    }*/
+.paper {
+    position:relative;
+    width: 20em;
+    top: -12em;
+    left: -4em;
+    height: auto;
+    }
+.scissors {
+    position:relative;
+    width: 20em;
+    top: -10em;
+    left: -9em;
+    height: auto;
+    }
+.input-rock {
+    position:relative;
+    left: -28em;
+    top: -25em;
+    }
+.input-paper {
+    position:relative;
+    left: -18em;
+    top: -26em;
+    }
+.input-scissors {
+    position:relative;
+    left: -23em;
+    top: -23em;
+    }
+    /*styling begins for the game console element of
+    the page*/
+
+.game-console {
+    display: relative;
+    grid-template-rows: 20em 10em 30em 20em;
+    color:violet;
+    border-color: turquoise;
+    border-style: dotted;
+    border-width: 10px;
+    }
+
+.consol.body {
+    position:relative;
+    width: 200em;
+    top: -13em;
+    left: -2222em;
+    height: auto;
+
+}
+.function {
+    position:relative;
+    border-radius: 160px;
+    border-color: rgb(158, 23, 30);
+    border-width: 5px;
+    position:relative;
+    width: 8.5em;
+    top: 6em;
+    left: 36em;
+    height: 6.5em;
+    background-color:transparent;
+
+}
 ul {
     display: grid;
     grid-template-rows: 10em 10em 10em;
-}
-
-img {
-    width: 100%;
-    height: auto;
-
-}
-/*
-body { 
-    background-image: url("/back-ground1.PNG");
-    position: relative;
-
-   /* background-repeat: no-repeat;
-    background-size: cover;
-    max-width: auto;
-    min-height: 100vh;
     }
-/*
-/*main {
-    display: grid;
-    grid-template-columns:75em 75em;
-    background-color: transparent;
-    }*/
-/*
-section.playerchoices {
-    display: grid;
-    grid-template-columns: 5em 20em;
-    grid-template-rows: 4em 4em 4em;
-    margin-top: 15em;
-    margin-left: 1em;
-    max-width: 5em;
-    background-color: transparent;
-    }
-    /*
-input {
-    position: absolute;
-    left: 170px;
-    margin-top: 0px;
-    width: 40px;
-    margin-left: 15em;
-    height:fit-content;
-
-
-}
-.choosebutton1 {
-    width: 15em;
-    }
-.scissors-input {
-    width: 15em;
-    position: relative;
-    left: 170px;
-
-}
-/* .radio {
-   
-    }      
-
-    /*section.playerchoicesdivchild1 {
-    display:grid;
-    grid-template-rows: 5em, 5em, 5em;
-}
-]
-img.playerchoices {
-    max-width: 100%;
-    height: auto;
-
-}
-        
-/*
-
-.choose-one-box {
-    display: grid;
-    grid-template-columns: 60em;
-        height: auto;
-        background-size: 90em;
-    
-        }
-
-
-div {
-    display: grid;
-    width: 160px;
-    grid-template-columns:max-content;
-    background-position-y: center;*/
-    
-    }
-/*
-.rock-paper-scissors {
-    display:grid;
-    grid-template-columns: 20em 40em;
-    grid-template-rows: 40em 40em 40em;
-    background-image: url("/choose-one.PNG");
-    background-size: 15em;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    width:min-content;
-    
-    }
-.radio-button {
-    background-size: 0em;
-    line-height:0em;
-    
-}
-
-
-
-
-/*
-
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
-abbr {
-	border-bottom: none;
-	}
-
